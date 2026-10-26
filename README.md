@@ -2,7 +2,8 @@
 
 Powered by an Arduino microcontroller and a KY-038 acoustic sensor, this device enables elderly and mobility-impaired individuals to turn on lights hands-free at night. The sensor was physically calibrated to filter out background noise to respond only to a blow, which activates a servo motor to flip the light switch.
 
-Wiring
+Wiring:
+
 Servo Motor: Connect to 5V, GND, and any analog write pin (PWM).
 
 KY-038 Sound Sensor: Connect to 5V, GND, and a digital read pin (as we do not care about the exact value that is read, but whether it was triggered or not).
